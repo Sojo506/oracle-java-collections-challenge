@@ -2,7 +2,7 @@ package models;
 
 public class Product {
     private String name;
-    private int price;
+    private double price;
 
     public Product() {
     }
@@ -20,11 +20,11 @@ public class Product {
         this.name = name;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
